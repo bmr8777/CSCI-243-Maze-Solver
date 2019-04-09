@@ -1,0 +1,47 @@
+commit 02b98de53bf981c38395b6b6c85bf92587965eec
+Author: Brennan Michael Reed <bmr8777@cs.rit.edu>
+Date:   Tue Oct 30 17:19:37 2018 -0400
+
+    Fixed all memory leaks and issues corresponding to Valgrind warnings
+
+commit f4b51752e2a24a690a7380c5f935be6fb99d24bc
+Author: Brennan Michael Reed <bmr8777@cs.rit.edu>
+Date:   Mon Oct 29 17:55:07 2018 -0400
+
+    Changes to increase efficiency when solving large maze files
+
+commit eeff7cb1256160159e3a0088f3e6f3df8e311b41
+Author: Brennan Michael Reed <bmr8777@cs.rit.edu>
+Date:   Mon Oct 29 15:44:16 2018 -0400
+
+    Implemented method to process command line arguments in main
+
+commit 4abdc38ce6914ee3d2dd24cd6a9580dceb3eb12c
+Author: Brennan Michael Reed <bmr8777@cs.rit.edu>
+Date:   Sat Oct 27 18:47:43 2018 -0400
+
+    Finished implementing the stepCount function, and modified prettyPrint to match desired output
+
+commit 8adac92a92e092ca965f3698dc9ba9103e7bb2e7
+Author: Brennan Michael Reed <bmr8777@cs.rit.edu>
+Date:   Fri Oct 26 14:34:14 2018 -0400
+
+    Began implementing the stepCount function using a BFS, a queue structure, and nodes corresponding to the different locations in the maze
+
+commit 73058f276e6c6866f5a944bfed007413bcfa6b5e
+Author: Brennan Michael Reed <bmr8777@cs.rit.edu>
+Date:   Thu Oct 23 15:32:26 2018 -0400
+
+    Implemented the parseMaze function and created a maze structure
+
+commit 18cb87d7025c3ec11b6c8c978d6f3f6a8dae07fb
+Author: Brennan Michael Reed <bmr8777@cs.rit.edu>
+Date:   Wed Oct 17 20:24:07 2018 -0400
+
+	Stubbed out header file and functions
+
+commit 2df3297dfca543d8f8d18f6f77c437c12f7d85af
+Author: Brennan Michael Reed <bmr8777@cs.rit.edu>
+Date:   Wed Oct 17 20:07:07 2018 -0400
+
+	Created mopsolver.c, mopsolver.h, and queue.h
